@@ -12,6 +12,8 @@ import helper.Browser;
 import helper.DragAndDropComponent;
 import helper.Publish;
 
+//commit *//
+
 public class SubTitleQuote {
 	WebDriver driver;
 	
