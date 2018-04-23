@@ -1,0 +1,17 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="AuthorTest" parallel="false" verbose="1">
+	<test name="Regression">
+		<classes>
+			<class name="aemTest.ArticleFeature"/>
+			<class name="aemTest.Carousel"/>
+			<class name="aemTest.EnhancedContent"/>
+			<class name="aemTest.EnhancedProductHero"/>
+			<class name="aemTest.HeroArticleText"/>
+			<class name="aemTest.HeroImage"/>
+			<class name="aemTest.Image"/>
+			<class name="aemTest.SectionHeader"/>
+			<class name="aemTest.SubTitleQuote"/>
+			<class name="aemTest.VideoContainer"/>
+		</classes>
+	</test>
+</suite>

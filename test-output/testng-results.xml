@@ -1,0 +1,650 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="5" ignored="0" total="44" passed="39">
+  <reporter-output>
+  </reporter-output>
+  <suite name="AuthorTest" duration-ms="818008" started-at="2018-03-07T10:01:48Z" finished-at="2018-03-07T10:15:26Z">
+    <groups>
+    </groups>
+    <test name="Regression" duration-ms="818008" started-at="2018-03-07T10:01:48Z" finished-at="2018-03-07T10:15:26Z">
+      <class name="aemTest.SectionHeader">
+        <test-method status="PASS" signature="StartBrowser()[pri:0, instance:aemTest.SectionHeader@d8355a8]" name="StartBrowser" is-config="true" duration-ms="4377" started-at="2018-03-07T15:34:08Z" finished-at="2018-03-07T15:34:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- StartBrowser -->
+        <test-method status="PASS" signature="CreateNewTemplate()[pri:0, instance:aemTest.SectionHeader@d8355a8]" name="CreateNewTemplate" duration-ms="17143" started-at="2018-03-07T15:34:13Z" finished-at="2018-03-07T15:34:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CreateNewTemplate -->
+        <test-method status="PASS" signature="SectionHeaderOneConfig()[pri:1, instance:aemTest.SectionHeader@d8355a8]" name="SectionHeaderOneConfig" duration-ms="8124" started-at="2018-03-07T15:37:10Z" finished-at="2018-03-07T15:37:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SectionHeaderOneConfig -->
+        <test-method status="PASS" signature="SectionHeaderTwoConfig()[pri:2, instance:aemTest.SectionHeader@d8355a8]" name="SectionHeaderTwoConfig" duration-ms="11412" started-at="2018-03-07T15:39:40Z" finished-at="2018-03-07T15:39:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SectionHeaderTwoConfig -->
+        <test-method status="PASS" signature="PublishThePage()[pri:3, instance:aemTest.SectionHeader@d8355a8]" name="PublishThePage" duration-ms="8472" started-at="2018-03-07T15:40:44Z" finished-at="2018-03-07T15:40:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PublishThePage -->
+        <test-method status="PASS" signature="CloseBrowser()[pri:0, instance:aemTest.SectionHeader@d8355a8]" name="CloseBrowser" is-config="true" duration-ms="766" started-at="2018-03-07T15:40:52Z" finished-at="2018-03-07T15:40:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CloseBrowser -->
+      </class> <!-- aemTest.SectionHeader -->
+      <class name="aemTest.EnhancedProductHero">
+        <test-method status="PASS" signature="StartBrowser()[pri:0, instance:aemTest.EnhancedProductHero@4c70fda8]" name="StartBrowser" is-config="true" duration-ms="4306" started-at="2018-03-07T15:32:52Z" finished-at="2018-03-07T15:32:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- StartBrowser -->
+        <test-method status="PASS" signature="CreateNewTemplate()[pri:0, instance:aemTest.EnhancedProductHero@4c70fda8]" name="CreateNewTemplate" duration-ms="14397" started-at="2018-03-07T15:32:56Z" finished-at="2018-03-07T15:33:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CreateNewTemplate -->
+        <test-method status="PASS" signature="AddEnhancedProductHero()[pri:1, instance:aemTest.EnhancedProductHero@4c70fda8]" name="AddEnhancedProductHero" duration-ms="18692" started-at="2018-03-07T15:36:01Z" finished-at="2018-03-07T15:36:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AddEnhancedProductHero -->
+        <test-method status="PASS" signature="PublishThePage()[pri:2, instance:aemTest.EnhancedProductHero@4c70fda8]" name="PublishThePage" duration-ms="8059" started-at="2018-03-07T15:38:54Z" finished-at="2018-03-07T15:39:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PublishThePage -->
+        <test-method status="PASS" signature="CloseBrowser()[pri:0, instance:aemTest.EnhancedProductHero@4c70fda8]" name="CloseBrowser" is-config="true" duration-ms="831" started-at="2018-03-07T15:39:02Z" finished-at="2018-03-07T15:39:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CloseBrowser -->
+      </class> <!-- aemTest.EnhancedProductHero -->
+      <class name="aemTest.HeroImage">
+        <test-method status="PASS" signature="StartBrowser()[pri:0, instance:aemTest.HeroImage@14acaea5]" name="StartBrowser" is-config="true" duration-ms="4413" started-at="2018-03-07T15:33:30Z" finished-at="2018-03-07T15:33:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- StartBrowser -->
+        <test-method status="PASS" signature="CreateNewTemplate()[pri:0, instance:aemTest.HeroImage@14acaea5]" name="CreateNewTemplate" duration-ms="15014" started-at="2018-03-07T15:33:34Z" finished-at="2018-03-07T15:33:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CreateNewTemplate -->
+        <test-method status="PASS" signature="AddHeroImage()[pri:1, instance:aemTest.HeroImage@14acaea5]" name="AddHeroImage" duration-ms="15276" started-at="2018-03-07T15:36:39Z" finished-at="2018-03-07T15:36:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AddHeroImage -->
+        <test-method status="FAIL" signature="PublishThePage()[pri:2, instance:aemTest.HeroImage@14acaea5]" name="PublishThePage" duration-ms="7652" started-at="2018-03-07T15:39:21Z" finished-at="2018-03-07T15:39:29Z">
+          <exception class="org.openqa.selenium.StaleElementReferenceException">
+            <message>
+              <![CDATA[stale element reference: element is not attached to the page document
+  (Session info: chrome=64.0.3282.186)
+  (Driver info: chromedriver=2.33.506120 (e3e53437346286c0bc2d2dc9aa4915ba81d9023f),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: 'unknown', revision: 'unknown', time: 'unknown'
+System info: host: 'BLRPPATIL156084', ip: '10.150.192.93', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_144'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.33.506120 (e3e53437346286c0bc2d2dc9aa4915ba81d9023f), userDataDir=C:\Users\ppatil\AppData\Local\Temp\scoped_dir13852_29968}, takesHeapSnapshot=true, pageLoadStrategy=normal, unhandledPromptBehavior=, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=64.0.3282.186, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
+Session ID: 8ab932b1ff85a8b5096dcf495dee6f8b]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.StaleElementReferenceException: stale element reference: element is not attached to the page document
+  (Session info: chrome=64.0.3282.186)
+  (Driver info: chromedriver=2.33.506120 (e3e53437346286c0bc2d2dc9aa4915ba81d9023f),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: 'unknown', revision: 'unknown', time: 'unknown'
+System info: host: 'BLRPPATIL156084', ip: '10.150.192.93', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_144'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.33.506120 (e3e53437346286c0bc2d2dc9aa4915ba81d9023f), userDataDir=C:\Users\ppatil\AppData\Local\Temp\scoped_dir13852_29968}, takesHeapSnapshot=true, pageLoadStrategy=normal, unhandledPromptBehavior=, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=64.0.3282.186, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
+Session ID: 8ab932b1ff85a8b5096dcf495dee6f8b
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:215)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:167)
+	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:82)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:45)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:82)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:641)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:275)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:82)
+	at sun.reflect.GeneratedMethodAccessor1.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+	at com.sun.proxy.$Proxy9.click(Unknown Source)
+	at helper.Publish.PublishPage(Publish.java:37)
+	at aemTest.HeroImage.PublishThePage(HeroImage.java:42)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:661)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:744)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
+	at org.testng.TestNG.runSuites(TestNG.java:1144)
+	at org.testng.TestNG.run(TestNG.java:1115)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:230)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:76)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.StaleElementReferenceException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PublishThePage -->
+        <test-method status="PASS" signature="CloseBrowser()[pri:0, instance:aemTest.HeroImage@14acaea5]" name="CloseBrowser" is-config="true" duration-ms="845" started-at="2018-03-07T15:39:29Z" finished-at="2018-03-07T15:39:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CloseBrowser -->
+      </class> <!-- aemTest.HeroImage -->
+      <class name="aemTest.EnhancedContent">
+        <test-method status="PASS" signature="StartBrowser()[pri:0, instance:aemTest.EnhancedContent@26be92ad]" name="StartBrowser" is-config="true" duration-ms="5083" started-at="2018-03-07T15:32:32Z" finished-at="2018-03-07T15:32:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- StartBrowser -->
+        <test-method status="PASS" signature="CreateNewTemplate()[pri:0, instance:aemTest.EnhancedContent@26be92ad]" name="CreateNewTemplate" duration-ms="14796" started-at="2018-03-07T15:32:37Z" finished-at="2018-03-07T15:32:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CreateNewTemplate -->
+        <test-method status="PASS" signature="EnhancedContentConfig()[pri:1, instance:aemTest.EnhancedContent@26be92ad]" name="EnhancedContentConfig" duration-ms="17388" started-at="2018-03-07T15:35:44Z" finished-at="2018-03-07T15:36:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- EnhancedContentConfig -->
+        <test-method status="FAIL" signature="PublishThePage()[pri:2, instance:aemTest.EnhancedContent@26be92ad]" name="PublishThePage" duration-ms="7731" started-at="2018-03-07T15:38:46Z" finished-at="2018-03-07T15:38:53Z">
+          <exception class="org.openqa.selenium.StaleElementReferenceException">
+            <message>
+              <![CDATA[stale element reference: element is not attached to the page document
+  (Session info: chrome=64.0.3282.186)
+  (Driver info: chromedriver=2.33.506120 (e3e53437346286c0bc2d2dc9aa4915ba81d9023f),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: 'unknown', revision: 'unknown', time: 'unknown'
+System info: host: 'BLRPPATIL156084', ip: '10.150.192.93', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_144'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.33.506120 (e3e53437346286c0bc2d2dc9aa4915ba81d9023f), userDataDir=C:\Users\ppatil\AppData\Local\Temp\scoped_dir13160_27107}, takesHeapSnapshot=true, pageLoadStrategy=normal, unhandledPromptBehavior=, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=64.0.3282.186, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
+Session ID: ff7ed38b9977a26929c1b62d0101fbc3]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.StaleElementReferenceException: stale element reference: element is not attached to the page document
+  (Session info: chrome=64.0.3282.186)
+  (Driver info: chromedriver=2.33.506120 (e3e53437346286c0bc2d2dc9aa4915ba81d9023f),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: 'unknown', revision: 'unknown', time: 'unknown'
+System info: host: 'BLRPPATIL156084', ip: '10.150.192.93', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_144'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.33.506120 (e3e53437346286c0bc2d2dc9aa4915ba81d9023f), userDataDir=C:\Users\ppatil\AppData\Local\Temp\scoped_dir13160_27107}, takesHeapSnapshot=true, pageLoadStrategy=normal, unhandledPromptBehavior=, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=64.0.3282.186, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
+Session ID: ff7ed38b9977a26929c1b62d0101fbc3
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:215)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:167)
+	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:82)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:45)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:82)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:641)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:275)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:82)
+	at sun.reflect.GeneratedMethodAccessor1.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+	at com.sun.proxy.$Proxy9.click(Unknown Source)
+	at helper.Publish.PublishPage(Publish.java:37)
+	at aemTest.EnhancedContent.PublishThePage(EnhancedContent.java:46)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:661)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:744)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
+	at org.testng.TestNG.runSuites(TestNG.java:1144)
+	at org.testng.TestNG.run(TestNG.java:1115)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:230)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:76)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.StaleElementReferenceException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PublishThePage -->
+        <test-method status="PASS" signature="CloseBrowser()[pri:0, instance:aemTest.EnhancedContent@26be92ad]" name="CloseBrowser" is-config="true" duration-ms="921" started-at="2018-03-07T15:38:53Z" finished-at="2018-03-07T15:38:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CloseBrowser -->
+      </class> <!-- aemTest.EnhancedContent -->
+      <class name="aemTest.ArticleFeature">
+        <test-method status="PASS" signature="StartBrowser()[pri:0, instance:aemTest.ArticleFeature@475530b9]" name="StartBrowser" is-config="true" duration-ms="7851" started-at="2018-03-07T15:31:48Z" finished-at="2018-03-07T15:31:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- StartBrowser -->
+        <test-method status="PASS" signature="CreateNewTemplate()[pri:0, instance:aemTest.ArticleFeature@475530b9]" name="CreateNewTemplate" duration-ms="17256" started-at="2018-03-07T15:31:56Z" finished-at="2018-03-07T15:32:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CreateNewTemplate -->
+        <test-method status="PASS" signature="ArtFeatureLargeImageLeftAlign()[pri:1, instance:aemTest.ArticleFeature@475530b9]" name="ArtFeatureLargeImageLeftAlign" duration-ms="18022" started-at="2018-03-07T15:35:10Z" finished-at="2018-03-07T15:35:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ArtFeatureLargeImageLeftAlign -->
+        <test-method status="PASS" signature="ArtFeatureLargeImageRightAlign()[pri:2, instance:aemTest.ArticleFeature@475530b9]" name="ArtFeatureLargeImageRightAlign" duration-ms="14466" started-at="2018-03-07T15:38:09Z" finished-at="2018-03-07T15:38:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ArtFeatureLargeImageRightAlign -->
+        <test-method status="PASS" signature="ArtFeatureLargeImageTopAlign()[pri:3, instance:aemTest.ArticleFeature@475530b9]" name="ArtFeatureLargeImageTopAlign" duration-ms="16929" started-at="2018-03-07T15:40:08Z" finished-at="2018-03-07T15:40:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ArtFeatureLargeImageTopAlign -->
+        <test-method status="PASS" signature="ArtFeatureSmallImageLeftAlign()[pri:4, instance:aemTest.ArticleFeature@475530b9]" name="ArtFeatureSmallImageLeftAlign" duration-ms="16893" started-at="2018-03-07T15:41:18Z" finished-at="2018-03-07T15:41:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ArtFeatureSmallImageLeftAlign -->
+        <test-method status="PASS" signature="ArtFeatureSmallImageRightAlign()[pri:5, instance:aemTest.ArticleFeature@475530b9]" name="ArtFeatureSmallImageRightAlign" duration-ms="16889" started-at="2018-03-07T15:42:12Z" finished-at="2018-03-07T15:42:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ArtFeatureSmallImageRightAlign -->
+        <test-method status="PASS" signature="PublishThePage()[pri:7, instance:aemTest.ArticleFeature@475530b9]" name="PublishThePage" duration-ms="7616" started-at="2018-03-07T15:43:40Z" finished-at="2018-03-07T15:43:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PublishThePage -->
+        <test-method status="PASS" signature="CloseBrowser()[pri:0, instance:aemTest.ArticleFeature@475530b9]" name="CloseBrowser" is-config="true" duration-ms="803" started-at="2018-03-07T15:43:48Z" finished-at="2018-03-07T15:43:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CloseBrowser -->
+      </class> <!-- aemTest.ArticleFeature -->
+      <class name="aemTest.VideoContainer">
+        <test-method status="PASS" signature="StartBrowser()[pri:0, instance:aemTest.VideoContainer@28d25987]" name="StartBrowser" is-config="true" duration-ms="4306" started-at="2018-03-07T15:34:50Z" finished-at="2018-03-07T15:34:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- StartBrowser -->
+        <test-method status="PASS" signature="CreateNewTemplate()[pri:0, instance:aemTest.VideoContainer@28d25987]" name="CreateNewTemplate" duration-ms="15029" started-at="2018-03-07T15:34:55Z" finished-at="2018-03-07T15:35:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CreateNewTemplate -->
+        <test-method status="PASS" signature="VideoContainerConfig()[pri:1, instance:aemTest.VideoContainer@28d25987]" name="VideoContainerConfig" duration-ms="41790" started-at="2018-03-07T15:37:28Z" finished-at="2018-03-07T15:38:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VideoContainerConfig -->
+        <test-method status="FAIL" signature="PublishThePage()[pri:2, instance:aemTest.VideoContainer@28d25987]" name="PublishThePage" duration-ms="8079" started-at="2018-03-07T15:39:59Z" finished-at="2018-03-07T15:40:07Z">
+          <exception class="org.openqa.selenium.StaleElementReferenceException">
+            <message>
+              <![CDATA[stale element reference: element is not attached to the page document
+  (Session info: chrome=64.0.3282.186)
+  (Driver info: chromedriver=2.33.506120 (e3e53437346286c0bc2d2dc9aa4915ba81d9023f),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: 'unknown', revision: 'unknown', time: 'unknown'
+System info: host: 'BLRPPATIL156084', ip: '10.150.192.93', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_144'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.33.506120 (e3e53437346286c0bc2d2dc9aa4915ba81d9023f), userDataDir=C:\Users\ppatil\AppData\Local\Temp\scoped_dir15900_806}, takesHeapSnapshot=true, pageLoadStrategy=normal, unhandledPromptBehavior=, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=64.0.3282.186, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
+Session ID: 21e563a5887b87a68cb01212b784e617]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.StaleElementReferenceException: stale element reference: element is not attached to the page document
+  (Session info: chrome=64.0.3282.186)
+  (Driver info: chromedriver=2.33.506120 (e3e53437346286c0bc2d2dc9aa4915ba81d9023f),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: 'unknown', revision: 'unknown', time: 'unknown'
+System info: host: 'BLRPPATIL156084', ip: '10.150.192.93', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_144'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.33.506120 (e3e53437346286c0bc2d2dc9aa4915ba81d9023f), userDataDir=C:\Users\ppatil\AppData\Local\Temp\scoped_dir15900_806}, takesHeapSnapshot=true, pageLoadStrategy=normal, unhandledPromptBehavior=, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=64.0.3282.186, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
+Session ID: 21e563a5887b87a68cb01212b784e617
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:215)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:167)
+	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:82)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:45)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:82)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:641)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:275)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:82)
+	at sun.reflect.GeneratedMethodAccessor1.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+	at com.sun.proxy.$Proxy9.click(Unknown Source)
+	at helper.Publish.PublishPage(Publish.java:37)
+	at aemTest.VideoContainer.PublishThePage(VideoContainer.java:46)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:661)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:744)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
+	at org.testng.TestNG.runSuites(TestNG.java:1144)
+	at org.testng.TestNG.run(TestNG.java:1115)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:230)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:76)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.StaleElementReferenceException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PublishThePage -->
+        <test-method status="PASS" signature="CloseBrowser()[pri:0, instance:aemTest.VideoContainer@28d25987]" name="CloseBrowser" is-config="true" duration-ms="780" started-at="2018-03-07T15:40:07Z" finished-at="2018-03-07T15:40:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CloseBrowser -->
+      </class> <!-- aemTest.VideoContainer -->
+      <class name="aemTest.SubTitleQuote">
+        <test-method status="PASS" signature="StartBrowser()[pri:0, instance:aemTest.SubTitleQuote@59fa1d9b]" name="StartBrowser" is-config="true" duration-ms="4225" started-at="2018-03-07T15:34:30Z" finished-at="2018-03-07T15:34:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- StartBrowser -->
+        <test-method status="PASS" signature="CreateNewTemplate()[pri:0, instance:aemTest.SubTitleQuote@59fa1d9b]" name="CreateNewTemplate" duration-ms="16446" started-at="2018-03-07T15:34:34Z" finished-at="2018-03-07T15:34:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CreateNewTemplate -->
+        <test-method status="PASS" signature="SubTitleWithQuoteComponentConfig()[pri:1, instance:aemTest.SubTitleQuote@59fa1d9b]" name="SubTitleWithQuoteComponentConfig" duration-ms="9239" started-at="2018-03-07T15:37:18Z" finished-at="2018-03-07T15:37:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SubTitleWithQuoteComponentConfig -->
+        <test-method status="PASS" signature="PublishThePage()[pri:2, instance:aemTest.SubTitleQuote@59fa1d9b]" name="PublishThePage" duration-ms="7598" started-at="2018-03-07T15:39:51Z" finished-at="2018-03-07T15:39:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PublishThePage -->
+        <test-method status="PASS" signature="CloseBrowser()[pri:0, instance:aemTest.SubTitleQuote@59fa1d9b]" name="CloseBrowser" is-config="true" duration-ms="808" started-at="2018-03-07T15:39:59Z" finished-at="2018-03-07T15:39:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CloseBrowser -->
+      </class> <!-- aemTest.SubTitleQuote -->
+      <class name="aemTest.HeroArticleText">
+        <test-method status="PASS" signature="StartBrowser()[pri:0, instance:aemTest.HeroArticleText@224edc67]" name="StartBrowser" is-config="true" duration-ms="4166" started-at="2018-03-07T15:33:11Z" finished-at="2018-03-07T15:33:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- StartBrowser -->
+        <test-method status="PASS" signature="CreateNewTemplate()[pri:0, instance:aemTest.HeroArticleText@224edc67]" name="CreateNewTemplate" duration-ms="14816" started-at="2018-03-07T15:33:15Z" finished-at="2018-03-07T15:33:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CreateNewTemplate -->
+        <test-method status="PASS" signature="ImageOnLeftArticleTextConfig()[pri:1, instance:aemTest.HeroArticleText@224edc67]" name="ImageOnLeftArticleTextConfig" duration-ms="18580" started-at="2018-03-07T15:36:20Z" finished-at="2018-03-07T15:36:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ImageOnLeftArticleTextConfig -->
+        <test-method status="PASS" signature="ImageOnRightArticleTextConfig()[pri:2, instance:aemTest.HeroArticleText@224edc67]" name="ImageOnRightArticleTextConfig" duration-ms="17922" started-at="2018-03-07T15:39:03Z" finished-at="2018-03-07T15:39:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ImageOnRightArticleTextConfig -->
+        <test-method status="PASS" signature="ImageOnTopArticleTextConfig()[pri:3, instance:aemTest.HeroArticleText@224edc67]" name="ImageOnTopArticleTextConfig" duration-ms="18766" started-at="2018-03-07T15:40:25Z" finished-at="2018-03-07T15:40:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ImageOnTopArticleTextConfig -->
+        <test-method status="FAIL" signature="PublishThePage()[pri:4, instance:aemTest.HeroArticleText@224edc67]" name="PublishThePage" duration-ms="7548" started-at="2018-03-07T15:41:35Z" finished-at="2018-03-07T15:41:42Z">
+          <exception class="org.openqa.selenium.StaleElementReferenceException">
+            <message>
+              <![CDATA[stale element reference: element is not attached to the page document
+  (Session info: chrome=64.0.3282.186)
+  (Driver info: chromedriver=2.33.506120 (e3e53437346286c0bc2d2dc9aa4915ba81d9023f),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: 'unknown', revision: 'unknown', time: 'unknown'
+System info: host: 'BLRPPATIL156084', ip: '10.150.192.93', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_144'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.33.506120 (e3e53437346286c0bc2d2dc9aa4915ba81d9023f), userDataDir=C:\Users\ppatil\AppData\Local\Temp\scoped_dir13996_3042}, takesHeapSnapshot=true, pageLoadStrategy=normal, unhandledPromptBehavior=, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=64.0.3282.186, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
+Session ID: b9b16223e03515af8a745285175b827f]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.StaleElementReferenceException: stale element reference: element is not attached to the page document
+  (Session info: chrome=64.0.3282.186)
+  (Driver info: chromedriver=2.33.506120 (e3e53437346286c0bc2d2dc9aa4915ba81d9023f),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: 'unknown', revision: 'unknown', time: 'unknown'
+System info: host: 'BLRPPATIL156084', ip: '10.150.192.93', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_144'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.33.506120 (e3e53437346286c0bc2d2dc9aa4915ba81d9023f), userDataDir=C:\Users\ppatil\AppData\Local\Temp\scoped_dir13996_3042}, takesHeapSnapshot=true, pageLoadStrategy=normal, unhandledPromptBehavior=, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=64.0.3282.186, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
+Session ID: b9b16223e03515af8a745285175b827f
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:215)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:167)
+	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:82)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:45)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:82)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:641)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:275)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:82)
+	at sun.reflect.GeneratedMethodAccessor1.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+	at com.sun.proxy.$Proxy9.click(Unknown Source)
+	at helper.Publish.PublishPage(Publish.java:37)
+	at aemTest.HeroArticleText.PublishThePage(HeroArticleText.java:67)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:661)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:744)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
+	at org.testng.TestNG.runSuites(TestNG.java:1144)
+	at org.testng.TestNG.run(TestNG.java:1115)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:230)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:76)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.StaleElementReferenceException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PublishThePage -->
+        <test-method status="PASS" signature="CloseBrowser()[pri:0, instance:aemTest.HeroArticleText@224edc67]" name="CloseBrowser" is-config="true" duration-ms="764" started-at="2018-03-07T15:41:42Z" finished-at="2018-03-07T15:41:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CloseBrowser -->
+      </class> <!-- aemTest.HeroArticleText -->
+      <class name="aemTest.Carousel">
+        <test-method status="PASS" signature="StartBrowser()[pri:0, instance:aemTest.Carousel@1d057a39]" name="StartBrowser" is-config="true" duration-ms="4247" started-at="2018-03-07T15:32:13Z" finished-at="2018-03-07T15:32:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- StartBrowser -->
+        <test-method status="PASS" signature="CreateNewTemplate()[pri:0, instance:aemTest.Carousel@1d057a39]" name="CreateNewTemplate" duration-ms="15025" started-at="2018-03-07T15:32:17Z" finished-at="2018-03-07T15:32:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CreateNewTemplate -->
+        <test-method status="PASS" signature="CarouselSide1()[pri:1, instance:aemTest.Carousel@1d057a39]" name="CarouselSide1" duration-ms="16101" started-at="2018-03-07T15:35:28Z" finished-at="2018-03-07T15:35:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CarouselSide1 -->
+        <test-method status="PASS" signature="CarouselSide2()[pri:2, instance:aemTest.Carousel@1d057a39]" name="CarouselSide2" duration-ms="21932" started-at="2018-03-07T15:38:24Z" finished-at="2018-03-07T15:38:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CarouselSide2 -->
+        <test-method status="PASS" signature="CarouselSide3()[pri:3, instance:aemTest.Carousel@1d057a39]" name="CarouselSide3" duration-ms="24567" started-at="2018-03-07T15:40:53Z" finished-at="2018-03-07T15:41:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CarouselSide3 -->
+        <test-method status="PASS" signature="CarouselSide4()[pri:4, instance:aemTest.Carousel@1d057a39]" name="CarouselSide4" duration-ms="28994" started-at="2018-03-07T15:41:43Z" finished-at="2018-03-07T15:42:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CarouselSide4 -->
+        <test-method status="PASS" signature="CarouselSide5()[pri:5, instance:aemTest.Carousel@1d057a39]" name="CarouselSide5" duration-ms="33581" started-at="2018-03-07T15:42:29Z" finished-at="2018-03-07T15:43:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CarouselSide5 -->
+        <test-method status="PASS" signature="CarouselSide6()[pri:6, instance:aemTest.Carousel@1d057a39]" name="CarouselSide6" duration-ms="37918" started-at="2018-03-07T15:43:02Z" finished-at="2018-03-07T15:43:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CarouselSide6 -->
+        <test-method status="PASS" signature="CarouselSide7()[pri:7, instance:aemTest.Carousel@1d057a39]" name="CarouselSide7" duration-ms="42173" started-at="2018-03-07T15:43:49Z" finished-at="2018-03-07T15:44:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CarouselSide7 -->
+        <test-method status="PASS" signature="CarouselSide8()[pri:8, instance:aemTest.Carousel@1d057a39]" name="CarouselSide8" duration-ms="46136" started-at="2018-03-07T15:44:31Z" finished-at="2018-03-07T15:45:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CarouselSide8 -->
+        <test-method status="PASS" signature="PublishThePage()[pri:9, instance:aemTest.Carousel@1d057a39]" name="PublishThePage" duration-ms="7792" started-at="2018-03-07T15:45:17Z" finished-at="2018-03-07T15:45:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PublishThePage -->
+        <test-method status="PASS" signature="CloseBrowser()[pri:0, instance:aemTest.Carousel@1d057a39]" name="CloseBrowser" is-config="true" duration-ms="802" started-at="2018-03-07T15:45:25Z" finished-at="2018-03-07T15:45:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CloseBrowser -->
+      </class> <!-- aemTest.Carousel -->
+      <class name="aemTest.Image">
+        <test-method status="PASS" signature="StartBrowser()[pri:0, instance:aemTest.Image@46d56d67]" name="StartBrowser" is-config="true" duration-ms="4331" started-at="2018-03-07T15:33:49Z" finished-at="2018-03-07T15:33:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- StartBrowser -->
+        <test-method status="PASS" signature="CreateNewTemplate()[pri:0, instance:aemTest.Image@46d56d67]" name="CreateNewTemplate" duration-ms="14890" started-at="2018-03-07T15:33:53Z" finished-at="2018-03-07T15:34:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CreateNewTemplate -->
+        <test-method status="FAIL" signature="ImageConfiguration()[pri:1, instance:aemTest.Image@46d56d67]" name="ImageConfiguration" duration-ms="16241" started-at="2018-03-07T15:36:54Z" finished-at="2018-03-07T15:37:10Z">
+          <exception class="org.openqa.selenium.ElementNotVisibleException">
+            <message>
+              <![CDATA[element not visible
+  (Session info: chrome=64.0.3282.186)
+  (Driver info: chromedriver=2.33.506120 (e3e53437346286c0bc2d2dc9aa4915ba81d9023f),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: 'unknown', revision: 'unknown', time: 'unknown'
+System info: host: 'BLRPPATIL156084', ip: '10.150.192.93', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_144'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.33.506120 (e3e53437346286c0bc2d2dc9aa4915ba81d9023f), userDataDir=C:\Users\ppatil\AppData\Local\Temp\scoped_dir15000_3259}, takesHeapSnapshot=true, pageLoadStrategy=normal, unhandledPromptBehavior=, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=64.0.3282.186, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
+Session ID: 49cce96c39ba5ea155263d7fde60ab1a]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.ElementNotVisibleException: element not visible
+  (Session info: chrome=64.0.3282.186)
+  (Driver info: chromedriver=2.33.506120 (e3e53437346286c0bc2d2dc9aa4915ba81d9023f),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: 'unknown', revision: 'unknown', time: 'unknown'
+System info: host: 'BLRPPATIL156084', ip: '10.150.192.93', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_144'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.33.506120 (e3e53437346286c0bc2d2dc9aa4915ba81d9023f), userDataDir=C:\Users\ppatil\AppData\Local\Temp\scoped_dir15000_3259}, takesHeapSnapshot=true, pageLoadStrategy=normal, unhandledPromptBehavior=, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=64.0.3282.186, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
+Session ID: 49cce96c39ba5ea155263d7fde60ab1a
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:215)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:167)
+	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:82)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:45)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:82)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:641)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:275)
+	at org.openqa.selenium.remote.RemoteWebElement.sendKeys(RemoteWebElement.java:99)
+	at sun.reflect.GeneratedMethodAccessor2.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+	at com.sun.proxy.$Proxy9.sendKeys(Unknown Source)
+	at aemPages.ImageComp.ImageConfig(ImageComp.java:54)
+	at aemTest.Image.ImageConfiguration(Image.java:36)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:661)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:744)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
+	at org.testng.TestNG.runSuites(TestNG.java:1144)
+	at org.testng.TestNG.run(TestNG.java:1115)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:230)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:76)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.ElementNotVisibleException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ImageConfiguration -->
+        <test-method status="PASS" signature="PublishThePage()[pri:2, instance:aemTest.Image@46d56d67]" name="PublishThePage" duration-ms="9017" started-at="2018-03-07T15:39:30Z" finished-at="2018-03-07T15:39:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PublishThePage -->
+        <test-method status="PASS" signature="CloseBrowser()[pri:0, instance:aemTest.Image@46d56d67]" name="CloseBrowser" is-config="true" duration-ms="805" started-at="2018-03-07T15:39:39Z" finished-at="2018-03-07T15:39:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CloseBrowser -->
+      </class> <!-- aemTest.Image -->
+    </test> <!-- Regression -->
+  </suite> <!-- AuthorTest -->
+</testng-results>

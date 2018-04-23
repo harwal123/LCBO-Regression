@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [AuthorTest]">
+  <test name="Regression(failed)">
+    <classes>
+      <class name="aemTest.HeroImage">
+        <methods>
+          <include name="PublishThePage"/>
+          <include name="StartBrowser"/>
+          <include name="CloseBrowser"/>
+        </methods>
+      </class> <!-- aemTest.HeroImage -->
+      <class name="aemTest.Image">
+        <methods>
+          <include name="CloseBrowser"/>
+          <include name="ImageConfiguration"/>
+          <include name="StartBrowser"/>
+        </methods>
+      </class> <!-- aemTest.Image -->
+      <class name="aemTest.HeroArticleText">
+        <methods>
+          <include name="CloseBrowser"/>
+          <include name="PublishThePage"/>
+          <include name="StartBrowser"/>
+        </methods>
+      </class> <!-- aemTest.HeroArticleText -->
+      <class name="aemTest.EnhancedContent">
+        <methods>
+          <include name="StartBrowser"/>
+          <include name="PublishThePage"/>
+          <include name="CloseBrowser"/>
+        </methods>
+      </class> <!-- aemTest.EnhancedContent -->
+      <class name="aemTest.VideoContainer">
+        <methods>
+          <include name="PublishThePage"/>
+          <include name="CloseBrowser"/>
+          <include name="StartBrowser"/>
+        </methods>
+      </class> <!-- aemTest.VideoContainer -->
+    </classes>
+  </test> <!-- Regression(failed) -->
+</suite> <!-- Failed suite [AuthorTest] -->
